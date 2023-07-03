@@ -1,0 +1,3 @@
+/home/kay/Documents/research/spi_study/even_parity/build/CMakeFiles/edit_cache.dir
+/home/kay/Documents/research/spi_study/even_parity/build/CMakeFiles/rebuild_cache.dir
+/home/kay/Documents/research/spi_study/even_parity/build/CMakeFiles/even_parity.dir

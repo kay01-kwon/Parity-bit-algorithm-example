@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/even_parity.h
+iostream
+-
+string
+-
+vector
+-
+
+/home/kay/Documents/research/spi_study/even_parity/src/main.cpp
+even_parity.h
+/home/kay/Documents/research/spi_study/even_parity/src/even_parity.h
+
