@@ -13,6 +13,17 @@ void even_parity::set_command(uint16_t command)
     tx_buf = command;
 }
 
+void even_parity::bit_modify(uint8_t position, uint8_t b)
+{
+    if (b > 1 | b <-1)
+        return;
+    
+    uint16_t mask;
+    mask = 1 << position;
+
+    tx_buf = ((tx_buf & ~mask) | b<<position);
+}
+
 bool even_parity::is_even_parity()
 {
     uint16_t check;

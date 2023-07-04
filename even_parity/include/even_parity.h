@@ -13,6 +13,8 @@ class even_parity{
 
         void set_command(uint16_t command);
 
+        void bit_modify(uint8_t position, uint8_t b);
+
         bool is_even_parity();
 
         void print_binary();
